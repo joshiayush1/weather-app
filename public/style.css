@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  background-color: #8d99ae;
+}
+
+.app {
+  min-width: 400px;
+  min-height: 500px;
+  /* border: 2px solid black; */
+  background: linear-gradient(#023047, #219ebc, #8ecae6);
+  border-radius: 10px;
+}
+
+.searchBox {
+  width: 300px;
+  height: 100px;
+  /* background-color: firebrick; */
+}
+
+#ipBox {
+  width: 80%;
+  height: 30px;
+  padding: 20px;
+  border-radius: 9999px;
+  color: grey;
+  outline: none;
+}
+
+#searchbtn {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 99px;
+  color: gray;
+}
+
+.weather-img img {
+  margin: 20px 0 0;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.deg p {
+  font-size: xxx-large;
+  font-weight: 600;
+}
+
+.city p {
+  font-size: xx-large;
+}
+
+.others {
+  margin: 20px 0 0;
+  width: 400px;
+  height: 100px;
+  font-size: x-large;
+  /* padding: 0 50px; */
+}
+
+.humidityDetails {
+  margin: 0 0 0 15px;
+}
+
+.windSpeedDetails {
+  margin: 0 0 0 15px;
+}
+
+.humidityDetails p:nth-child(2) {
+  font-size: medium;
+}
+
+.windSpeedDetails p:nth-child(2) {
+  font-size: medium;
+}
